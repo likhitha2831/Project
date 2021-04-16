@@ -1,0 +1,187 @@
+.btn4{
+   
+    background-color: yellowgreen;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+ 
+}
+
+.btn4{
+    height: 43px;
+    width: 300px;
+    font-size: 18px;
+
+}
+
+
+.btn3{
+padding-top: 10px;
+width: 200px;
+    height: 50px;
+    font-size: 20px;
+   background-color: yellowgreen;
+}
+
+
+
+
+::placeholder{
+  
+    outline: none;
+    border:none;
+    color: rgb(27, 23, 23);
+    background-color: white;
+   padding: 200px;
+   font-size: 24px;
+ 
+}
+
+.parallex{
+    background: url("https://www.soyacincau.com/wp-content/uploads/2020/06/200626-xiaomi-mi-band-5.jpg") no-repeat;
+    height: 732px;
+width: 100%;
+}
+
+
+p{
+    font-size: 20px;
+    color: rgb(9, 9, 10);
+   padding-left: 700px;
+  
+
+}
+
+h1{
+    font-size: 40px;
+    color: rgb(8, 8, 8);
+    padding-left: 890px;
+
+}
+
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20, 19, 19);
+    width: 100%;
+    height: 100%;
+}
+
+img{
+    max-width: 100%;
+    height: 400px;
+    display: block;
+    border-radius: 5px;
+}
+
+h3{
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+
+.carousel wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(231, 222, 222);
+    overflow: hidden;
+}
+
+.carousel-wrapper .carousel{
+    position: absolute;
+    top: 12%;
+transform: translateY(0%);
+    width: 100%;
+    height: auto;
+}
+
+.carousel-wrapper .carousel .carousel-cell{
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(184, 169, 169);
+    width: 18%;
+    height: auto;
+   min-width: 110px;
+   margin: 0 40px;
+   transition: transform 300ms ease;
+}
+
+.carousel-wrapper .carousel .carousel-cell .more{
+    display: block;
+    opacity: 0;
+    margin: 5px 0 15px 0;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    transition: opacity 300ms ease;
+}
+
+
+.carousel-wrapper .carousel .carousel-cell .price{
+    opacity: 1;
+    margin: 5px 0 15px 0;
+    font-weight: 700;
+    color: rgb(26, 18, 18);
+    transition: opacity 300ms ease;
+    position: absolute;
+    margin: 45px auto 0 auto;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.carousel-wrapper .carousel .carousel-cell .price sup{
+    top: 2px;
+    position: absolute;
+}
+
+
+.carousel-wrapper .carousel .carousel-cell .more:hover,
+.carousel-wrapper .carousel .carousel-cell .more:active,
+.carousel-wrapper .carousel .carousel-cell .more:visited,
+.carousel-wrapper .carousel .carousel-cell .more:focus{
+    color: rgb(32, 27, 27);
+    text-decoration: none;
+}
+
+.carousel-wrapper .carousel .carousel-cell.is-selected{
+   transform: scale(1.2);
+}
+
+.carousel-wrapper .carousel .carousel-cell .line{
+    position: absolute;
+    top: 2px;
+}
+
+.carousel-wrapper .carousel .carousel-cell.is-selected.line{
+    height: 35px;
+}
+
+.carousel-wrapper .carousel .carousel-cell.is-selected.price,
+.carousel-wrapper .carousel .carousel-cell.is-selected.more{
+    opacity: 1;
+}
+s
+.carousel-wrapper .flickity-page-dots{
+    display: none;
+}
+
+.carousel-wrapper .flickity-viewport,
+.carousel-wrapper .flickity-slider{
+    overflow: visible;
+}
+
+
+@media screen and ( min-width: 768px ) {
+    /* half-width cells for larger devices */
+    .carousel-cell { width: 50%; }
+  }
